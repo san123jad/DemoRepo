@@ -26,7 +26,6 @@ public class ProductEnquiryController {
 			@PathVariable String productAvailability, @PathVariable int unit) {
 //		ProductEnquiryBean productEnquiryBean = productEnquiryClientCall.checkProductStock(productName,
 //				productAvailability).getBody();
-		
 		ProductEnquiryBean productEnquiryBean =(ProductEnquiryBean) productEnquiryClientCall.checkProductStock(productName,
 					productAvailability).getBody();
 		if (productEnquiryBean.getErrorMessage() != "")
