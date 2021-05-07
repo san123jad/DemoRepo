@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: product-cloud-gateway-server
+    
+server:
+  port: 8900

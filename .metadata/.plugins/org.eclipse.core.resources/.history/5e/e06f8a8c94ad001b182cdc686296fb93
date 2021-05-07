@@ -1,0 +1,5 @@
+package com.microservice.enquiry.client;
+
+public class ProductEnquiryClientCall {
+
+}

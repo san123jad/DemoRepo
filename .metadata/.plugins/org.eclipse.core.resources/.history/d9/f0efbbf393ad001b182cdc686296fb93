@@ -1,0 +1,5 @@
+package com.microservice.enquiry.beans;
+
+public class ProductEnquiryBean {
+
+}

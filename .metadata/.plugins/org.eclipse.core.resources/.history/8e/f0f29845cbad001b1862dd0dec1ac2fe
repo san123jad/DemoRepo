@@ -1,0 +1,15 @@
+package com.microservice.enquiry;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
+
+@SpringBootApplication
+@EnableFeignClients("com.microservice.enquiry")
+public class ProductEnquiryServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ProductEnquiryServiceApplication.class, args);
+	}
+
+}

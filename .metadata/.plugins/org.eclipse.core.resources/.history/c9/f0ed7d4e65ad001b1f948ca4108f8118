@@ -1,0 +1,5 @@
+package com.microservice.entity;
+
+public interface ProductStcokRepository {
+
+}

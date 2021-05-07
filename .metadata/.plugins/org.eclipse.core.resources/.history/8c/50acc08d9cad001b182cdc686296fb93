@@ -1,0 +1,5 @@
+package com.microservice.enquiry.controller;
+
+public class ProductEnquiryController {
+
+}
